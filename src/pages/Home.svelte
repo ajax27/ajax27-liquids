@@ -3,6 +3,7 @@
   import { link } from 'svelte-routing';
   // featured products
   import Featured from '../components/Products/Featured.svelte';
+  export let location;
 </script>
 <svelte:head>
   <title>Ajax27 | Liquid Gold</title>

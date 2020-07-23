@@ -13,6 +13,7 @@ Variables
   --primaryColor: #9e3aa3;
   --primaryDarkColor: #4e1d51;
   --primaryBlue: #0921ac;
+  --secondaryBlue: #d7dcf8;
   --primaryDarkBlue: #0f1a58;
   --primaryGold: #d6a70b;
   --primaryFont: "Catamaran", sans-serif;
@@ -47,7 +48,7 @@ Global Styles
 body {
   font-family: var(--primaryFont);
   color: var(--mainBlack);
-  background: var(--mainBackground);
+  background: var(--secondaryBlue);
   line-height: 1.4;
   font-size: 1rem;
   font-weight: 300;
@@ -303,6 +304,11 @@ Products
   letter-spacing: var(--mainSpacing);
   text-align: center;
   margin-bottom: 3.5rem;
+}
+.products-title {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 2.3rem;
 }
 .products-center {
   width: var(--smallWidth);

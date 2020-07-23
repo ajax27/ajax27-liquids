@@ -13,15 +13,17 @@
     <script defer src="/build/bundle.js"></script>
     <script
       src="https://kit.fontawesome.com/61e732019a.js"
-      SameSite="None"
+      SameSite="None; Secure;"
       crossorigin="anonymous"
-    ></script>
+    >
+    </script>
   </head>
 
   <body>
     <script>
-      document.cookie =
-        "AC-C=ac-c;expires=Fri, 31 Dec 9999 23:59:59 GMT;path=/;SameSite=Lax";
+      // document.cookie =
+      //   "AC-C=ac-c;expires=Fri, 31 Dec 9999 23:59:59 GMT; path=/; SameSite=None; Secure";
+      const cookie = "AC-C=ac-c;expires=Fri, 31 Dec 9999 23:59:59 GMT; path='/'; SameSite=None; Secure;";
     </script>
   </body>
 </html>
